@@ -15,5 +15,7 @@ from https://www.youtube.com/watch?v=CaB3o_PbTJU
 
 
 volume.py - gives historical stock information from yahoo finance API, pulls SP500 tickers from same source as SP500.py
+inspriation from https://towardsdatascience.com/historical-stock-price-data-in-python-a0b6dc826836
+
 
 pip install pytrends,yahoo-fin,pandas,lxml
