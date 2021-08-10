@@ -5,15 +5,15 @@ original study article - https://journals.plos.org/plosone/article?id=10.1371%2F
 "query volumes tend to anticipate trading volumes. Such an anticipation spans from  to  days at most."
 
 
-trends.py - original (create trends report through google trends)
-from https://www.youtube.com/watch?v=cuTUbPQk2R4
-
-
-trendscopy.py - pull sp500 tickers from sp500.py to create trends report through google trends
+trends.py - create trends report through google trends
+heavily modified from original https://www.youtube.com/watch?v=cuTUbPQk2R4
+pulls SP500 tickers form sp500.py
 
 
 sp500.py - stock info from yahoo finance
 from https://www.youtube.com/watch?v=CaB3o_PbTJU
 
+
+volume.py - gives historical stock information from yahoo finance API, pulls SP500 tickers from same source as SP500.py
 
 pip install pytrends,yahoo-fin,pandas,lxml
